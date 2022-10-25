@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu{
+    background-color: gray;
+    height: 40px;
+
+}
+ a{
+    text-decoration: none;
+}
+
+ul.btn-adicionar{
+    width: 200px;
+    float: right;
+}
+
+ul.btn-menu{
+    float: right;
+}
+
+.btn-menu > li > a {
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 3px;
+    font-size: large;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.btn-adicionar > li > a {
+    color: rgb(223, 37, 37);
+    border: 2px solid rgb(223, 37, 37);
+    border-radius: 30px;
+    font-size: large;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+.btn-menu > li > a:hover{
+    background-color: rgb(102, 100, 100);
+    color: white ;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 60px;
+    width: 200px;
+
+}
+
+.img-logo{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 150px;
+}
+
+.promocao{
+    background-color: blue;
+    border: 2px solid black;
+    height: 435px;
+    width: 250px;
+    float: left;
+    margin: 10px 20px 20px 20px;
+    box-shadow: 10px 15px 10px rgba(128, 128, 128, 0.623);
+
+}
+
+/* Lista */
+
+.lista{
+    background-color: maroon;
+    border: 2px solid black;
+    height: 435px;
+    width: 930px;
+    float: right;
+    margin: 10px 20px 20px 20px;
+}
+
+.lista-title{
+    border: 2px solid black;
+    height: 30px;
+    background-color: white;
+}
+
+.lista-buscar{
+    border: 2px solid black;
+    height: 30px;
+    background-color: white;
+}
+
+
+
+/* Barra de pesquisa*/
+
+.divBusca{
+    background-color: white;
+    border:solid 2px white;
+    border-radius:10px;
+    width:900px;
+    height:20px;
+    margin-left: 20px;
+
+  }
+
+
+.txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:solid 1px black;
+    height:20px;
+    width:350px;
+
+  }
+
+ .btnBusca{
+    border:none;
+    /* float:right;*/
+    height:20px;
+    border-radius:0 7px 7px 0;
+    width:116px;
+    font-weight:bold;
+    background: #cce2e4;
+  }
+
+.divBusca img{
+    float:left;
+    width: 20px;
+  }
+
+  /* ------------------ */
+
