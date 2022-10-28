@@ -1,7 +1,6 @@
 *{
     padding: 0px;
     margin: 0px;
-
 }
 
 html{
@@ -15,6 +14,12 @@ html{
 }
  a{
     text-decoration: none;
+}
+
+.img{
+    height: 20% ;  
+    width: 100%;
+    object-fit: cover;
 }
 
 ul.btn-adicionar{
@@ -74,9 +79,14 @@ ul{
 }
 
 .img-logo{
-    background-color: aqua;
+    background: url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    
+
+    
     border: 2px solid black;
-    height: 100%;
+    height: 200px;
+    width: 100%;
 }
 
 .img-logo > img{
